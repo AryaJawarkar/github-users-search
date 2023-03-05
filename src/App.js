@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
 <Routes>
-   <Route path='/github-search' element={<Dashboard />} />
+   <Route path='/github-users-search' element={<Dashboard />} />
    <Route path='*'  element={<Error />} />
 </Routes>
     </Router>
